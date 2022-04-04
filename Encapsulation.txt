@@ -3,6 +3,8 @@ Bir başka deyişle, nesnelerimizi başkalarının yanlış kullanımlarından k
 
 ***C# ta değişken in önünde public private falan yoksa default olarak private atanmış olur.
 
+kaynak: https://www.youtube.com/watch?v=g-OOfYC5xa8
+
 
 private string _firstName;
 
