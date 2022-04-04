@@ -1,0 +1,31 @@
+Örneğin yapıcı metodun overload edilmesi.
+
+OVERLOADING (Aşırı Yükleme):
+metodun ismi aynı olucak imzası farklı olucak. 
+yani metot ismi aynı olacak farklı parametre tipi yada farklı parametre sayısı olmalı. 
+dönüş tipi farklı da olabilir olmayadabilir.
+örneğin metot isimleri aynı parametreler aynı dönüş tipinin farklı olması overloading için yeterli değil.
+class Program
+    {
+        static int ortalama(int sayi1,int sayi2)
+        {
+            int sonuc = (sayi1 + sayi2) / 2;
+            return sonuc;
+        }
+ 
+        static int ortalama(int sayi1, int sayi2,int sayi3)
+        {
+            int sonuc = (sayi1 + sayi2+sayi3) / 2;
+            return sonuc;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(ortalama(13, 5));
+            Console.WriteLine(ortalama(13, 8, 7));
+            Console.ReadKey();
+        }
+    }
+
+
+metot imzası:
+metot ismi, metodun aldığı parametrelerin tipleri, metodun aldığı parametre sayısı.

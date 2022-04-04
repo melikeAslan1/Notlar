@@ -1,0 +1,11 @@
+Nesnelerimizdei fieldların kontrollü bir şekilde dışarıya açılmasıdır.
+Bir başka deyişle, nesnelerimizi başkalarının yanlış kullanımlarından korumak için kontrolsüz deişime kapatmaktır.
+
+***C# ta değişken in önünde public private falan yoksa default olarak private atanmış olur.
+
+
+private string _firstName;
+
+public string FirstName {
+  get{ return "Mrs." + _firstName;}
+  set{ _firstName=value};

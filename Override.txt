@@ -1,0 +1,45 @@
+OVERRIDE
+Kalıtım yolu ile sınıflar birbirinden türetilir ve bir sınıfın diğer bir sınıftan türediği zaman, 
+türediği sınıfın bütün özelliklerini kullanır. 
+Temel sınıftan türetilmiş sınıflara aktarılan metotları her zaman olduğu gibi kullanmak istemeyebiliriz.
+Bu metotları türetilmiş sınıf içerisinde yeniden tanımlayabilmek için virtual ve override anahtar sözcüklerini kullanırız.
+Virtual metotlar kalıtım yolu ile aktarıldıkları sınıfların içerisinde override edilerek değiştirilebilirler. 
+Eğer override edilmezlerse temel sınıf içerisinde tanımlandıkları şekilde çalışırlar.
+
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Transactions transactions = new Transactions();
+            transactions.Multiplication(4,3);
+
+            Calculate calculate = new Calculate();
+            calculate.Multiplication(5, 7);
+
+            Console.ReadLine();
+        }
+    }
+
+    public class Transactions
+    {
+        public virtual void Multiplication(int x, int y)
+        {
+            Console.WriteLine("virtual: " + x * y);
+        }
+    }
+
+    public class Calculate : Transactions
+    {
+        public override void Multiplication(int x, int y)
+        {
+            Console.WriteLine("override: " + x * y);
+        }
+    }
+
+
+override edilmiş bir metot içerisinden metodun orijinalini (temel sınıf içerisindeki halini) çağırabilmek 
+için base anahtar sözcüğü kullanılır.
+
+
+override da sadece metotun içi farklı.
+overloadingte metot ismi aynı imza farklı.
