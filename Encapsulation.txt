@@ -5,9 +5,13 @@ Bir başka deyişle, nesnelerimizi başkalarının yanlış kullanımlarından k
 
 kaynak: https://www.youtube.com/watch?v=g-OOfYC5xa8
 
+kapsülleme yapmayacaksan oto property yaparsın. yani kapsüllemeyi koyarsın ama içini doldurmazsın bir kısıtlama koymazsın yani
+Eğer kapsüllemenin içini dolduracaksan yani kısıt-lama getireceksen bu sekilde olur;
 
 private string _firstName;
 
 public string FirstName {
   get{ return "Mrs." + _firstName;}
   set{ _firstName=value};
+
+Eğer Data Anotation kullanırsan oto prop yaparsın kapsüllemenin içini doldurmazsın. private de tanımlamazsın.
