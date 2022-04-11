@@ -6,7 +6,7 @@ Abstract Class’larda kullanılan diğer önemli nokta ise Abstract Methodlard�
 Abstract  methodlar sadece abstract class’lar içinde tanımlanır ve override edilmek zorundadır. 
 abstract elemanlar private OLAMAZLAR.
 
-İçimde herhangi bir abstract yapı olan classın kendisi de abstract olmak zorundadır.
+İçinde herhangi bir abstract yapı olan classın kendisi de abstract olmak zorundadır.
 
 abstract olan bir classın içinde abstract olmayan yapılar da bulunabilir.
 
