@@ -2,6 +2,8 @@ interface tanımlanırken başına I koyulur.
 
 Bir interface bir nesneye yetenek kazandırır.
 
+Bir sınıfa birden fazla interface uygulanabilir.
+
 İçine yazılan metotlar sadece tanım şeklindedir içi doldurulmaz.
 
 peki prop olur mu
