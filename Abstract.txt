@@ -2,23 +2,25 @@ ABSTRACT:
 
 Karmaşıklığı yönetmek için kullanılır.
 Abstarct class lardan nesne türetilmez.
-Abstract Class’larda kullanılan diğer önemli nokta ise Abstract Methodlardır. 
-Bu methodlar sadece abstract class’lar içinde tanımlanır ve override edilmek zorundadır. 
+Abstract Class’larda kullanılan diğer önemli nokta ise Abstract Methodlardır. fakat bu class larda normal metotlar da olabilir.
+Abstract  methodlar sadece abstract class’lar içinde tanımlanır ve override edilmek zorundadır. 
 abstract elemanlar private OLAMAZLAR.
 
-İçimde herhangi bir abstract yapı olan classın kendisi de abstract olmak zorundadır.
+İçinde herhangi bir abstract yapı olan classın kendisi de abstract olmak zorundadır.
 
 abstract olan bir classın içinde abstract olmayan yapılar da bulunabilir.
 
 Abstract aslında bir yandan da virtual demektir, virtualda override zorunluğu yok iken abstract için bu zorunluluk vardır, 
 aralarındaki fark budur.
 
-abstract : Bu sınıf içinde abstract ile işaretlenen metodlar ve propertyler bu sınıftan kalıtım alan her sınıfta yazılmak 
+abstract : Bu sınıf abstract ile işaretlenen metodlar ve propertyler bu sınıftan kalıtım alan her sınıfta yazılmak 
 ve implement(uygulanmak) zorundadırlar.
 
 abstract metod ya da propertylerin gövdeleri tanımlandıkları class içinde yazılmazlar.Sadece imza dediğimiz geri 
 dönüş tipleri,isimleri ve erişim belirleyicileri tanımlanabilir.
 Gövdeleri kalıtım alan sınıfta override edilerek yazılır.
+
+Virtual da bu metot ezilebilir derken. Abstract metot bu metot ezilmek zorunda der.
 
 abstract class mobilya
    {

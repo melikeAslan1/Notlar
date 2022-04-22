@@ -1,0 +1,15 @@
+programcının temiz kod yazmasını sağlar.
+
+class tan ayrı olarak bir hareket i sağlar.
+
+
+*bir işlev için bir class yazmak yerine yani bir işlevi yerine getirecek bir metodun bağlı olduğu class ı inşa etmek
+yerine sadece o metodun barınacağı statik bir metot inşa ediyorsunuz. ve o statik metotlar instance a ihtiyaç duymadığı için
+belirttiğiniz parametreye aktarılabiliyor. Bu sayede bir class tan instance alıp bellekte gereksiz yer tutmaya
+gerek duymuyorsunuz.
+
+Extension metodun bulunacağı class statik olmalı çünkü instance oluşturmayacağız.
+
+parametredeki this o metodun extension olduğunu söyler.
+
+C# ta var olan bir tipe siz doğrudan bir metot eklemiş oldunuz.
