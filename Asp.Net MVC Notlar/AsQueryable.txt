@@ -1,0 +1,3 @@
+http://cagataykiziltan.net/ienumerable-ve-iquearyble-arasindaki-fark/#:~:text=IEnumerable%20ve%20IQueryable%20aras%C4%B1ndaki%20temel,veritaban%C4%B1%20%C3%BCzerinden%20sorgulama%20i%C5%9Flemi%20yapar
+
+https://www.web-gelistirme-sc.com/tr/entity-framework/.tolist-.asenumerable-asqueryable-arasindaki-farklar-nelerdir/1040637273/
