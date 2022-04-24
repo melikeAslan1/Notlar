@@ -17,8 +17,10 @@ olduklarından bir takım benzerlikler göstermektedir ancak MVC Framework'ün b
 Asp .net Web Api Core Asp .Net'in bir parçasıdır ve MVC veya diğer web application türleri ile birlikte 
 kullanılabilir. Aynı zamanda bütün bunlardan bağımsız stand-alone Web services application olarakta kullanılabilir. 
 
+Api de view yoktur aslında. 
 
-MVC design pattern ı kullanılmıştır. Routing, Controllers, Action Results, Filter, Model Binders yapıları var.
+MVC design pattern ı kullanılmıştır.MVC olmak zorundadır. Routing, Controllers, Action Results, Filter, 
+Model Binders yapıları var. API de requestleri controller yapısı karşılar.
 
 Web API teknolojiler bize internet media typler ile bize çıktı üretirler bunlar XML, JSON, CUSTOM
 
