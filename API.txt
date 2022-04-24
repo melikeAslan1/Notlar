@@ -1,0 +1,44 @@
+http://www.canertosuner.com/post/Web-Api-Nedir
+
+Web Api bizim diğer teknolojilerle haberleşmemizi sağlayan arayüzdür. Http protokolü ile haberleşme sağlanır. Yani
+tarayıcınız bu işi yapabilir.
+
+Türkçe'de uygulama geliştirme arayüzü anlamına gelir ve sahip olduğumuz service veya verileri dış dünyaya açıp 
+başka uygulamaların-platformların kullanımına sunmak için belli kurallar çerçevesinde tanımlamalar yaptığımız 
+arayüz dür. 
+
+Asp .Net Web Api ise farklı türde sayısız client (browsers, mobile phones, tablets, pc, etc.) tarafından consume 
+edilebilen HTTP protokolü üzerinden haberleşebilen servisler oluşturmak için kullanılan bir framework şeklinde 
+tanımlayabiliriz.
+
+Asp .net MVC ile routing, controllers, action results, filter, model binders gibi ortak feature'lara sahip 
+olduklarından bir takım benzerlikler göstermektedir ancak MVC Framework'ün bir parçası değildir.
+
+Asp .net Web Api Core Asp .Net'in bir parçasıdır ve MVC veya diğer web application türleri ile birlikte 
+kullanılabilir. Aynı zamanda bütün bunlardan bağımsız stand-alone Web services application olarakta kullanılabilir. 
+
+
+MVC design pattern ı kullanılmıştır. Routing, Controllers, Action Results, Filter, Model Binders yapıları var.
+
+Web API teknolojiler bize internet media typler ile bize çıktı üretirler bunlar XML, JSON, CUSTOM
+
+Ben bir application dan kameranın bazı fonksiyonlarını kullanmak istiyorsam kameranın API sini kullanırım.
+Bir atm ye yatırılan parayı API kullanarak döndürebiliyosunuz bulabiliyosunuz.
+
+Bir yazılımcının yazdığı API yi yine bir yazılımcı kullanır. Başka bir yazılımcı benim sağladığım fonksiyonlarla
+uygulamasını yazabilsin. 
+
+Örneğin yemek sepetinden sipariş verirken mobil de olsa web de olsa istek aynı bussiness a gider işte bunu API yapar.
+
+Web api web üzerinden http protokolü ile erişilebilen bazı fonksiyonlardan ibarettir. 
+
+microservice mimarisi yüzlerce API nin arka planda birlikte  çalışmasıdır.
+
+API bir yazılımcının kullanacağı bir yazılımdır. 
+
+Örneğin kurumlarda farklı teknolojilerle ve farklı fiziksel konumlarda barındırılan şirket içi yazılımlara tek 
+kullanıcı adı ve tek şifre ile giriş yapılmasını sağlayan bir uygulama geliştireceğimizi düşünelim. Bu uygulama 
+için kullanıcı doğrulama işlemini tek bir yerden yaptırıp 
+dönen sonuç doğru ise ilgili uygulamada oturum açılabilmesi sağlanabilir.
+
+Postman uygulaması ile API nin tam çalışıp çalışmadığını test edebilirsin.
