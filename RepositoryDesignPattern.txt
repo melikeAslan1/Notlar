@@ -1,0 +1,39 @@
+Repository temel olarak veritabanı sorgulama işlemlerinin bir merkezden yapılmasını sağlayarak iş katmanına 
+taşınmasını önler ve bu şekilde sorgu ve kod tekrarına engel olmuş olur. 
+
+Yani asıl amaç veri işlem ve sorgulamaların tekrarlardan kaçınılarak merkezi bir yapıya çekilmesidir.Bu sayede 
+veritabanı işlemlerimizi tekrar ve tekrar iş katmanı içinde yazmak durumununda kalmamış oluruz.
+
+Veritabanına veri ekleme, güncelleme ve okuma gibi CRUD (Create Read Update Delete) işlemlerimiz için oluşturmuş 
+olduğumuz kodların tekrar kullanılabilirliğini sağlamaktır.
+
+Yazılım geliştirmede, belkide en önemli prensiplerden birisi olan DRY (Don’t repeat yourself) yani kendini 
+tekrarlama prensibine göre kod tekrarlarından sakınmak gerekmektedir. Repository Patterni ise bize bunu 
+sağlamaktadır. Oluşturduğumuz bir sınıf ile tüm tablolar için CRUD işlemlerimizi yapabilmemizi sağlamaktadır ve 
+kod tekrarını önlemektedir. Aksi durumda bir düşünsenize, 30 tablolu bir yapımız mevcut ve her biri için CRUD 
+işlemleri yapmamız gerektiğini? Vay anam vay…
+
+ek olarak repository tasarım kalıbı, programınızda asıl işi yapan bölümler ile veriye erişen bölümlerin birbirinden 
+soyutlanması mantığını da getirmiştir.
+
+Yani veri katmanı ve bu katmanı kullanan iş katmanı arasında bir arabirim olarak yer alır ve bu iki katman arasında 
+soyutlama görevi de üstlenir.
+
+Repository tanım gereği objeler içeren bir collection yapısındadır. 
+
+Bu objeler memory’de tutulur ve objelere erişmek için collection nesnesinde kullandığımız bazı ortak metodları 
+kullanırız. Bu metodlar add, remove, get, getAll, find olarak örneklendirilebilir. Dikkat ederseniz metodlar 
+arasında save veya update bulunmamakta. Bunun nedeni ise repository bir obje koleksiyonu olduğundan görevi 
+veritabanını güncellemek veya ona birşey eklemek değildir.
+
+Temel olarak repository katmanı ile elde ettiğimiz obje koleksiyonu üzerinde işlemlerimizi gerçekleştirir, 
+eğer kalıcı bir saklama alanına(veritabanı, dosya, vs.) bu objelerdeki değişikliklerin aktarılması gerekiyorsa 
+bunu da unit of work tasarım kalıbı ile sağlarız.
+
+****Unit Of Work Design Pattern*****
+
+Unit of Work deseni tek başına kullanılabileceği gibi, Repository kurumsal tasarım deseni ile veya Identity Map 
+kurumsal tasarım deseni ile de kullanılabilir.
+
+
+
