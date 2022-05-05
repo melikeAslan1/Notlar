@@ -1,0 +1,4 @@
+1) Sınıf içinde değişiklik yapmak çok zorsa ve zaman kaybettiriyorsa.
+2) Yaptığınız değişikliklerin sonuçlarını asla tahmın edemiyorsanız.
+
+SOLID ile bunların önüne geçmeye çalışıyoruz.
