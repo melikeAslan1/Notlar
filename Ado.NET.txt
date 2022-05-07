@@ -1,0 +1,19 @@
+ADO.NET 
+ADO.NET platformu sadece MSSQL için değil, ACCESS, ORACLE gibi diğer veri tabanları içinde kullanabiliriz. 
+Ado.Net mimarisinde kullanılan temel nesneler Connection, Command, DataReader, DataAdapterve ve DataSet nesneleridir.
+
+Connection Nesnesi: Projede veri tabanı kullanımı için olmazsa olmaz nesnedir. Connection nesnesi veri tabanı ile uygulama 
+arasında bağlantı kurmak için kullanılır.
+
+Command Nesnesi: Veri tabanı ile uygulama arasındaki veri akışını iki yönlü olarak kontrol etmeye yarar. 
+Execute.NonQuery, ExecuteScalar ve ExecuteReader olmak üzere 3 alt nesnesi vardır.
+
+DataReader Nesnesi: Command nesnesi aracılığı ile getirilen verileri okumak için DataReader nesnesi kullanılır.
+
+DataAdapter Nesnesi: Veri tabanından alınan veriler üzerinde değişiklik yapma, veri tabanına tekrar aktarma gibi 
+işlemler DataAdapter nesnesi ile yapılır. Bu işlemleri yapabilmek için 4 adet alt nesne bulundurur, 
+bunlar; Seçmek için SelectCommand, eklemek için InsertCommand, güncellemek için UpdateCommand ve silmek için de 
+DeleteCommand nesneleridir.
+
+DataSet Nesnesi: Ado.net teknolojisinin en yenilikçi ve güçlü tarafını DataSet oluşturur. 
+Çünkü DataSet nesnesi DataAdapter ile alınan verileri bağlantısız olarak depolayabilir ve yönetebilir.

@@ -1,0 +1,22 @@
+TEMEL KATMANLI MİMARİ: 
+n-Layer(aynı bilgisayrdaysa)   n-Tier(farklı bilgisayarlardaysa)
+n genelde 3 diye olur ama 10 bile olabilir, 3 olmak zorunda değil.
+
+n i artıracaksan düşün gerçekten ihtiyacın var mı bu kadara.
+
+Katmanlı mimari temelde 3 katmandan oluşmaktadır. Bu 3 katman genelde her projenizde olması gereken katmanlardır.
+
+3 KATMAN:
+1. DAL Katmanı(Data Access Layer): veri tabanı ile ilgili katman
+2.BL yada BLL (Business Layer yada Business Logic Layer): mesela hesaplama yaptıracaksın BL de yaptırırsın. mesela bir rapor alıcaksın
+BL den aırsın. 
+3. Presentation Layer (Sunum Katmanı): al ver yapıcak başka bişey yapmayacak. presentation ile DAL arasındaki iletişim.
+
+Entities katmanı 4. bir katman. Common yada Domain de denir
+Katmanlı mimari bizim ne işimize yarar?
+
+Katmanlı mimari yazarak zaman ve para kaybederim aslında. 
+marifet: uzun vadede bir yazılım üzerinde güncelleme falan geldiğinde buna adapte olabilmek.
+
+DB - DAL <-> BLL <-> P.L <->  Console, web, windows uygulaması. (foto cektim)
+PRESENTATİON LAYER CONSOLE WEB YADA WİNDOWS UYGULAMASI OLABİLİR.
