@@ -1,0 +1,19 @@
+Asenkron olarak  geliştirilen metotlar ile performans sorunları önlenebilir.
+
+Metotların yanıt vermesi üzerinde geliştirmeler yapılabilir.
+
+Bir kod bloğu içerisinde tanımlı olan metotlar asenkron olarak çalışıyorsa, metotların birbirlerinin işlerinin bitmesini beklemez ve 
+aynı anda tüm metotlar çalışır.
+
+Birden fazla metodun birbirinden bağımsız çalışmasını sağlar.
+
+Diğer türlü önceki metodun çalışması bitmeden diğer metoda geçmeyecektir.
+
+Örneğin web sitenizdeki bazı metotların erişimi yavaş ise asenkron metotlar kullanılarak yanıt hızı artırılabilir.
+
+Herhangi bir metodun çalışmasının tamamlanması beklenmez.
+
+Async metodunun bir diğer faydası ise çalışma esnasında diğer metodları bloke etmemesidir. Yani diğer metodların çalışmasını 
+engellemesidir. Çünkü döndürdüğü değerler diğer metodları ilgilendirmez. Genellikle void ifadeler async olarak tanımlanır fakat 
+int string bool gibi ifadelerde async olarak tanımlanabilir.
+Herhangi bir metot çalışmasa da, diğer metotlar çalışmaya devam eder.
