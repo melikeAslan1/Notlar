@@ -17,3 +17,12 @@ Async metodunun bir diğer faydası ise çalışma esnasında diğer metodları 
 engellemesidir. Çünkü döndürdüğü değerler diğer metodları ilgilendirmez. Genellikle void ifadeler async olarak tanımlanır fakat 
 int string bool gibi ifadelerde async olarak tanımlanabilir.
 Herhangi bir metot çalışmasa da, diğer metotlar çalışmaya devam eder.
+
+asenkron birbirinden bağımsız çalışan parçalardır da diyebiliriz. 
+
+Biz asenkron bir fonksiyonu çalıştırırken eş zamanlı olarak başka bir fonksiyon da çalışabilir. yada asenkron bir
+uygulamayı çalıştırırken başka bir uygulama da çalışabilir diyebiliriz. asenkron sayesinde bir işyerindeki kişilerin
+birbirini beklemediğini aynı anda çalıştığını düşünelim bu asenkronun faydasıdır. fakat bazen bazı işler beklenebilir diğer işin 
+başlaması için. asenkron işlemlerin içinde asenkron olduğunu belirtmezseniz o işi bekleyemezsiniz. bu yü<den await 
+kullanılır. yani bu metot asenkron dur ve bu metodun işini bitirmesi için içeride bir işi bekleyeceğim deriz await 
+ile.
