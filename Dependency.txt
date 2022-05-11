@@ -1,0 +1,1 @@
+dependency bir nesnenin başka bir nesne olmadan çalışmamasıdır. örneğin pil nesnesi olmadan mouse nesnesi çalışamaz.

@@ -1,0 +1,7 @@
+DbContext aracılığı ile veritabanına bağlanıp, veritabanı işlemleri yapar. Bu class ile delete update add işlemlerini
+yaparsınız.
+
+DbContext sınıfı Entity Framework ün veritabanına bağlanan ve işlemleri yöneten en önemli sınıfıdır.
+
+Bir kolleksiyon bir tabloya eşdeğer olmalı. Modellerimizi mesela product yada category yi veritabanında tablo 
+olarak tutması gerektiğini tanımlamalıyız. Bu DbSet generic yapısı ile sağlanır.
