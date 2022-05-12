@@ -1,3 +1,0 @@
-https://keremozer.com/aspnet-mvc/aspnet-mvc-session-kullanimi.html#:~:text=Kullan%C4%B1c%C4%B1n%C4%B1n%20sayfay%C4%B1%20g%C3%B6r%C3%BCnt%C3%BCledi%C4%9Fi%20anda%20ba%C5%9Flay%C4%B1p,oturum%20a%C3%A7ma%20(login)%20i%C5%9Flemi.
-
-https://teknotower.com/asp-net-mvc-session-kullanimi/

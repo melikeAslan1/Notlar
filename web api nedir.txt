@@ -44,3 +44,5 @@ için kullanıcı doğrulama işlemini tek bir yerden yaptırıp
 dönen sonuç doğru ise ilgili uygulamada oturum açılabilmesi sağlanabilir.
 
 Postman uygulaması ile API nin tam çalışıp çalışmadığını test edebilirsin.
+
+program.cs de uygulama ayağa kalkar.
