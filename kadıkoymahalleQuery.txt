@@ -1,0 +1,25 @@
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Fenerbahçe',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Caferağa',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Osmanağa',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Rasimpaşa',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Koşuyolu',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Acıbadem',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Hasanpaşa',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Bostancı',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Caddebostan',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Dumlupınar',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Eğitim',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Erenköy',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Feneryolu',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Fikirtepe',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Göztepe',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Kozyatağı',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Merdivenköy',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Sahrayıcedit',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Suadiye',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Zühtüpaşa',34,GETDATE(),0)
+insert into Neighbourhoods (NeighbourhoodName, DistrictId,CreatedDate,IsDeleted) Values ('Ondokuzmayıs',34,GETDATE(),0)
+
+
+notepad de yaptık.
+
