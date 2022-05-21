@@ -1,3 +1,4 @@
 Controller denetleyicidir.
 
 Request i alıp değerlendirir ilgili view e gönderir.
+

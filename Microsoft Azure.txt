@@ -1,0 +1,25 @@
+Microsoft Azure Microsoft’un Bulut uygulamasının altyapı ve geliştirme platformudur. 
+
+Bu platform ise, bize internet üzerinde çalışan ve verilerini de Microsoft Data Center üzerinde tutan internet 
+uygulamaları erişim imkan sağlar. 
+
+Geliştirilen bu uygulamanın verilerini de kendi kurumumuz içinde tutabilir ve bulut üzerinde de çalışmasını 
+sağlayabilirsiniz.
+
+Azure kendi üzerinde size bir bulut servisi sunarak burada web sunucularını barındırma, veri tabanı sunucusu 
+oluşturma, dosya depolama, kullanıcı dizinleri, mobil uygulamalar, sanal makineler ve e-mail sunucusu oluşturma 
+gibi servislerden yararlanmanızı sağlar. Sunduğu avantajlar: Güvenlik, gizlilik, yüksek kullanılabilirlik 
+ve ölçeklenebilirlik, maliyet etkinliği.
+
+urumumuz içinde geliştirdiğiniz bir uygulamanın bulut üzerinde host edilebilmesini de sağlayabilirsiniz. 
+Bunu platform üzerinde oluşturacağımız çeşitli sanal makineler aracılığı ile yapabiliyoruz.
+
+Microsoft Azure, internet üzerinde bir uygulama geliştirmekten tutun da o uygulamanın host edilmesinden depolanması, 
+yayınlanmasından çalıştırılmasına kadar olan tüm aşamalarda farklı platformlar sunan ve tüm bunları yaparken de 
+veri gizliliğini ve güvenliği garanti altına alan Microsoft’un bulut çözümdür.
+
+Microsoft Azure, geniş kapsamlı özellikler barındıran büyük bir bulut platformudur, yani Windows Server işletim 
+sisteminin özelleştirilmiş bir sürümüdür. Dolayısıyla Azure teknolojisine de işletim sistemi diyebiliriz. 
+
+Azure nin sunduğu hizmetler: Web Siteleri - Web Barındırma Hizmeti, Sanal Makine Hizmeti, Veri Tabanı Hizmeti,
+Mobil Hizmetler
