@@ -1,0 +1,36 @@
+Validasyon: [StringLenght],[Required] Kullanıcı girişi olduğu durumlarda bu verilerin doğru girilip girilmediğinin kontrolünün yapılmasıdır.
+	◦	Session: Kullanıcıya ait bilgilerin sunucuda tutulmasına yarayan nesnedir. KullanıcıAdı, Şifre, Mail Adresi vb. sayfalar arası kullanıcı bilgileri tutulur.
+	◦	Cache: Cache sistemi web sayfamızın ya da uygulamamızın görüntülerini, yazılarını belli bir süreliğine belleğe alma işlemidir.
+	◦	Regex(Regular Expression): Belirlenen kurallar çerçevesinde kısa yoldan ve esnek şekildeki yapılardır. Search veya replace(değiştirme) işlemlerine kolaylık sağlar.
+	◦	Authentication: Kimlik doğrulama
+	◦	Authorization: Yetkinlik kontrolü. Giriş yapılıp yapılmadığını kontrol eder.
+	◦	Indexleme : Sql’den yola çıkarak parçalama, kayıtları ararken parçalama yapması için kullanılır.
+	◦	Generic method: Generic methodlar kendi türünü belirleyerek içerisinde o türde veriler barındıran yapılardır. List<T> şeklinde tanımlanır.
+	◦	API: Api başka sunucudan veya uygulamadan kendi uygulamamıza ya da kendi uygulamamızdan başka uygulamalara veri aktarım için kullandığımız bir yöntemdir.
+	◦	REST API: Geliştiricilerin bir API oluştururken uyguladıkları kurallar kümesidir. Json formatındadır.
+	◦	SOAP API: Xml tipinde kullanılır.
+	◦	Json(JavaScript Object Notation) : Basit veri yapılarını temsil etmek için tasarlanmış bağımsız bir veri değişim formatıdır.
+	◦	Token: Bir kaynağa erişim izni sağlayan bir bilet ya da jetondur.
+	◦	HTTPGet / Post: İstemciler ve sunucular arası iletişimi sağlar. Get; kaynaktan veri ister. Post; kaynağı oluşturmak güncellemek için kaynağa veri gönderir.
+	◦	EndPoint: API'lerin istek gönderdiği ve kaynağın yaşadığı yere denir.
+	◦	Async await: İçerisinde asenkron işlem yapılacak metot async’dir. async keywordü ile işaretlenmelidir. Asenkron: süreçlerin birbirinden bağımsız biçimde eşzamanlı olarak yürütülmesidir.
+	◦	Instance Oluşturma: Nesne tabanlı programlama da bir nesnenin instance’ını oluşturmak bir örneğini yaratmaktır. Örneğin; bir masa tanımlarsak o masa instance alarak yuvarlak masa, yemek masası vb. şeklinde türetilebilir. Masa masa= new Masa() şeklinde üretilir. Repoları oluştururken sıkça kullandık.
+	◦	Encode/Decode: Encode; şifreleme kodlamadır. Base32,Base64 vb. Decode; şifrelenmiş bir metni ilk haline dönüştürmedir.
+	◦	Indexleme: verilerin sıralanmış ve tablo halini almış yapıdır.
+***Create Index Index1 on OrnekDB.Ornek(
+Id,Name asc)
+	◦	Limitleme: SELECT kolonadları FROM tablo LIMIT numara sorgu esnasında limitleme sınırlandırma işlemi yapar. Örneğin numara kısmına 3 yazarsak ilk 3 sorguyu getirir.
+	◦	Split: Bir diziyi split metodu ile alt dizilere bölebiliriz. 
+String subs = sub.Split(‘ ‘);  şeklinde kullanılır.
+	◦	Bool: bool type .Net System.Boolean yapısı true/false ifade eden yapıdır.Tür mantıksal işlem gerçekleştirir.
+	◦	Asc/Desc: Sql de order by komutu verileri sıralamak için kullanılır. Bu verileri a-z ye sıralamak istersek artan şekilde ASC kullanılır. Azalan şekilde sıralamak için DESC kullanılır.
+	◦	SOLİD PRENSİPLERİ: Nesne yönelimli programlamada daha düzenli kod yazmak için kullanılan esnek yapıda, okunabilir ve geliştirilebilir olmasını sağlayan yapılardır.
+	◦	Desing Patterns: Design Pattern'ler kodların belli bir hiyerarşi ve düzen içerisinde yazılması için oluşturulmuş kurallardır. Mesela Observer, Mvc, Solid prensipleri basit design patternlere örnektir.
+	◦	Lazy Loading: Bir kod parçacığının ya da programın sadece ihtiyaç duyulduğu zamanda kullanılması durumudur.
+	◦	Neden Nesne Yönelimli Programlama yapmalıyız ? Bu konu biraz derin ancak kısaca daha düzenli ve okunabilir kod yazmak, kod tekrarını engellemek için kullanmalıyız denebilir.
+	◦	Kalıtım: Bir sınıfın başka bir sınıfa ait özellik ve metotları kendine miras almasına kalıtım denir.
+	◦	Referans Tip: Belleğin heap bölgesinde tutulan veri tipine referans tip denir.
+	◦	Code First: veritabanında tablolara kolon eklerken sadece sınıf içerisine yeni bir property eklenerek yapılır. Migration ile işlem yapılır.
+	◦	DBFirst: Az değişen şemalarda uzun ömürlü veritabanlarında kullanılır
+	◦	AutoMapper: veritabanında olan bir değişikliği tasarlanan bir nesneye ekleyip bunu tüm methodlarda mapping ile kullanma işlemidir
+	◦	Dependency Injection: bağımlılık oluşturacak yapıların parçalanarak birbirinden bağımsız hale getirilmesidir. Yani yapılan değişikliklerin tümüne değil parçaya yansımasıdır.

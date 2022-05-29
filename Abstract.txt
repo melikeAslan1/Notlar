@@ -6,15 +6,14 @@ Abstract Class’larda kullanılan diğer önemli nokta ise Abstract Methodlard�
 Abstract  methodlar sadece abstract class’lar içinde tanımlanır ve override edilmek zorundadır. 
 abstract elemanlar private OLAMAZLAR.
 
+abstract ı kalıtım uygularken kullanırız.
+
 İçinde herhangi bir abstract yapı olan classın kendisi de abstract olmak zorundadır.
 
 abstract olan bir classın içinde abstract olmayan yapılar da bulunabilir.
 
 Abstract aslında bir yandan da virtual demektir, virtualda override zorunluğu yok iken abstract için bu zorunluluk vardır, 
 aralarındaki fark budur.
-
-abstract : Bu sınıf abstract ile işaretlenen metodlar ve propertyler bu sınıftan kalıtım alan her sınıfta yazılmak 
-ve implement(uygulanmak) zorundadırlar.
 
 abstract metod ya da propertylerin gövdeleri tanımlandıkları class içinde yazılmazlar.Sadece imza dediğimiz geri 
 dönüş tipleri,isimleri ve erişim belirleyicileri tanımlanabilir.
@@ -49,4 +48,11 @@ abstract class mobilya
            Console.WriteLine("Malzeme: {0}", malzeme);
        }
    }
+-------------------------
+aklına şunu getir, markete gidiyorsun kasiyere bir adet ürün alabilir miyim diyorsun.
 
+Abstractionda super class taki metot sub class ta override edilmek zorundadır yani var olmak zorundadır.
+
+Abstartionda super class taki abstract metot imzası sub classta override yazısı ile birlikte oluşur ve içini doldurursun.
+
+class diyagramda abstract sınıflar çizgili çerçeve içinde gösterilir.

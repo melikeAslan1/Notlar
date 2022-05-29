@@ -6,8 +6,6 @@ Bir sınıfa birden fazla interface uygulanabilir.
 
 İçine yazılan metotlar sadece tanım şeklindedir içi doldurulmaz.
 
-peki prop olur mu
-
 Interface i tanımlarken belirtmesek bile default olarak public yapıdadır. private protected olamazlar.
 
 İnterface implement edilince içindeki metotların hepsi türetilen class ta olusur.
@@ -16,3 +14,7 @@ Bir Class sadece bir class tan türetebilirken, bir Class birden çok Interface 
 
 Interface’leri miras alan sınıflar, içerisinde tanımlanan tüm metotları Implement etmek zorundadır. mesela abstact
 class ta abstract metot türetilen class ta override edilmek zorunda degil fakat burada implement edilmek zorunda.
+
+interface sürdürülebilir yazılımın en temel noktalarından biridir.
+
+interface in içine field koyulamıyor ama property koyulabilir.

@@ -1,0 +1,7 @@
+Polimorfizm: urunler var urunlerin sepette kdv li fiyatlari hesaplanacak. Fakat her urunun kdv orani farkli bu sebeple 
+ana clastaki kdv hesapla metodumu hepsinde kullanamam. Ana classta super metodu tanimlarken virtual ekliyorum. Sub calass ta 
+ise metodu olustururken public override ekliyorum.
+
+Polimorfizm de virtual ile  oluşturulan metot sub class ta override edilmek zorunda değil. yani sub class ta var olmak zorunda değil.
+
+Polimorfizmdeki virtual ile bu metot ezilebilir deriz. Fakat abstractiondaki abstract ile bu metot ezilmek zorunda deriz, fark bu.
