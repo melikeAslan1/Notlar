@@ -11,3 +11,5 @@ https://www.mshowto.org/mvc-data-annotations-nedir-nasil-kullanilir-bolum-35.htm
 https://www.youtube.com/channel/UCSSAUgEJcooorKS9Ty4uoPA (Asp.Net MVC dersleri)
 
 http://senabayrak.com/
+
+https://www.youtube.com/watch?v=8iT81s3vqUQ&list=PLNuS-mfTyEKHj4h9aiviyQyNNXeH9yv4l&index=5   MVC VİDEO SERİSİ **FAYDALI**

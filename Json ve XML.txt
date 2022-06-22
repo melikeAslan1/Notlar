@@ -1,0 +1,4 @@
+JSON’un amacı veri alış verişi yaparken daha küçük boyutlarda veri alıp göndermektir.
+
+https://www.hakanbaykara.com/blog/json-nedir-json-kullanimi-xml-nedir-xml-kullanimi/
+

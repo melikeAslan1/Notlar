@@ -1,0 +1,15 @@
+Kullanıcının sisteme girişi (authenticate), 
+izin verilen işlemlerin gerçekleştirilmesi (authorization) 
+
+Kullanıcı yönetiminin gerçekleştirilmesi 
+
+“ASP.Net Identity” frameworkü ortaya konulmuştur
+
+Veri tabanında yer alan tabloların genişletilmesi ve özelleştirilmesi imkanını sunmaktadır.
+
+MigrationHistory (Kod içerisinde yapılan düzenlemelerin veri tabanına ne zaman ve nasıl aktarıldığını tutan log amaçlı kullanılan tablo)
+AspNetRoles (Kullanıcılara atanacak rolleri barındıran tablo)
+AspNetUserClaims (Farklı oturumlardan gelen kullanıcı bilgilerini tutan tablo)
+AspNetUserLogins (Farklı providerların sağlamış olduğu bağlantıları tutan tablo)
+AspNetUserRoles (Kullanıcıların sahip olduğu rolleri tutan tablo)
+AspNetUsers (Sisteme kayıtlı kullanıcı bilgilerini tutan tablo)
