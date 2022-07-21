@@ -1,0 +1,7 @@
+En basit olarak günümüzde artan mesajlaşma uygulamalarında gelen mesajı görmek için her seferinde sayfayı 
+yenilememiz gerekiyor. İşte tam da bu durumda gerçek zamanlı uygulamaları, sayfamızı 
+yenilemeden sayfamızdaki verilerin güncellenmesi olarak tanımlayabiliriz.
+
+SignalR, gerçek zamanlı uygulamalar geliştirmek için yazılmış açık kaynak kodlu bir .NET kütüphanedir.
+
+https://furkanalaybeg.medium.com/signalr-nedir-617f5873711d
