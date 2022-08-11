@@ -1,0 +1,9 @@
+ //var result = await _http.GetAsync("https://structure.resthyperdev.com/api/StructureDetail/GetList");
+            //var bind = JsonConvert.DeserializeObject<List<StructureDto>>(await result.Content.ReadAsStringAsync());
+
+            //var result = await _http.GetFromJsonAsync<List<StructureDto>>("https://structure.resthyperdev.com/api/StructureDetail/GetList");
+
+
+
+            //string id = "bfc6c382-f995-473b-9bd1-792da5934c7a";
+            //var result = await _http.GetFromJsonAsync<StructureDto>($"https://structure.resthyperdev.com/api/StructureDetail/GetBy?Id={id}");

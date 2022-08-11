@@ -5,3 +5,5 @@ yenilemeden sayfamızdaki verilerin güncellenmesi olarak tanımlayabiliriz.
 SignalR, gerçek zamanlı uygulamalar geliştirmek için yazılmış açık kaynak kodlu bir .NET kütüphanedir.
 
 https://furkanalaybeg.medium.com/signalr-nedir-617f5873711d
+
+https://github.com/MertKanter/SingalRExample
