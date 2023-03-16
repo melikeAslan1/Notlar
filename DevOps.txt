@@ -1,0 +1,4 @@
+developer ve operation
+developer kısmı kodu yaz, operation kısmı u yazılımı uygulamayı sunar, devops aradaki bu iletişimi sağlar.
+
+İşletim ve Bakım (Operating and Maintenance): Yazılım oluşturulup müşterinin hizmetine sunulduğu aşamadır.

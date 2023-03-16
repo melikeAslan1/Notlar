@@ -1,0 +1,4 @@
+kubernetes konteynır tığınlarının dağıtılması ve yönetilmesini sağlar, uygulamalrımızı otomatik olarak
+deploy etmemizi sağlar. Bir konteyner cluster aracı diyebiliriz. k8s olarak da bahsedilir.
+
+Kubernetes konteynırları fiziksel ve sanal sunucularda yönetebilir, hem özel hem aws hem de microsoft azure hem de google cloud platform gibi genel bulutlarda kullanolabilir.

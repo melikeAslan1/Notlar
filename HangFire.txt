@@ -1,0 +1,14 @@
+Arka plan işleri (Background jobları) oluşturmamıza, yürütmemize ve yönetmemize kolaylık sağlayan açık kaynaklı 
+kütüphanedir.
+
+Hangfire belirli .NET uygulama türüne bağlı değildir. ASP.NET Web uygulamalarında, ASP.NET olmayan Web uygulamalarında, 
+Konsol uygulamalarında veya Windows hizmetlerinde kullanabiliriz.
+
+eskiden bu tarz işler için örneğin Windows ortamı için, Windows Servisler, daha sonra örneğin Azure ile cross platform 
+çalışan, Worker Serviceler hayatımıza girdmiştir. 
+
+Ama bu tarz servisler için, sanal bir sunucunun ayağı kaldırılması gerekmektedir. Bu da extra bir maliyete yol açtığı için, 
+IIS üzerinde çalışan Quartz.NET, Hangfire gibi toolara ihtiya. duyulmuştur. Mesela Azure Cloud üzerinde de bunun karşılığı, 
+“WebJobs” lardır.
+
+Bu proje ne yapıyor: 

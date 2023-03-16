@@ -1,0 +1,20 @@
+Sql standart yapılandırılmış sorgu dilidir. bütün gelişmiş veri tabanı uygulamalarında kullanılır.Structured Query Language” (Yapılandırılmış Sorgulama Dili) 
+
+MySql bir üründür, aynı şekilde Oracle, Informix,Postgres,MSQL de ürün.
+
+MySQL, MS Access, Oracle, Sybase, Informix, Postgres ve SQL Server gibi tüm İlişkisel Veritabanı Yönetim Sistemleri (RDMS); standart veritabanı dili olarak SQL’i kullanır.
+
+
+Veri Tabanı Yönetim Sistemleri;
+MySql
+Oracle
+Microsoft Sql Server
+PostgreSql
+
+SQL dilinin yeteneklerinin sınırlı olması sebebiyle, SQL üzerine çeşitli iyileştirmeler ve eklemeler yapılmıştır.
+
+*Oracle firması SQL üzerine yaptığı iyileştirmeleri standartlaştırmış ve PL-SQL adını vermiş ve geliştiricilerine
+sunmuştur.
+*Microsoft kendi platformu için SQL üzerine yaptığı iyileştirmeleri standart haline getirmiş ve T-SQL ismini vermiştir. Transact-SQL‘in kısaltması olan T-SQL günümüz veritabanı yönetim ihtiyaçlarının tamamını karşılayabilecek yeterliliğe sahiptir. T-SQL (Transact SQL), Microsoft tarafından geliştirilen bir SQL uzantısıdır. T-SQL, Microsoft SQL Server'da kullanılan sorgu dilidir.
+
+*IBM --> SQL PL

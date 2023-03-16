@@ -1,0 +1,1 @@
+gerçek zamanlı bir hata takip sistemi, farklı projelerinizin hatalarını tek bir çatı altından görebileceğiniz bir uygulama.

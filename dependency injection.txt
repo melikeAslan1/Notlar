@@ -1,1 +1,0 @@
-dependency bir şeyin başka bir şey olmadan çalışmaması.

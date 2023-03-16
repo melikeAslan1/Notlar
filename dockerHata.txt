@@ -1,0 +1,9 @@
+Check that hardware-assisted virtualization (either Intel VMX or AMD SVM) and Data Execution Prevention (sometimes labeled XD or Execute Disable or NX) are enabled in your BIOS.
+
+ 
+
+Check your bootloader is configured to launch Hyper-V.
+
+ 
+
+See https://docs.docker.com/desktop/windows/troubleshoot/#virtualization
