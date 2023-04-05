@@ -1,2 +1,2 @@
 # Notlar
-Bu repo çalışma notlarını içermektedir.
+Bu repo hatırlatıcı kısa notlar içermektedir.
