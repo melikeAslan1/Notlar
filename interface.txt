@@ -18,3 +18,10 @@ class ta abstract metot türetilen class ta override edilmek zorunda degil fakat
 interface sürdürülebilir yazılımın en temel noktalarından biridir.
 
 interface in içine field koyulamıyor ama property koyulabilir.
+
+private int _AdID;            // Field(Alan)
+   public int AdID               // Property(Özellik)
+   {
+      get { return _AdID; }
+      set { _AdID = value; }
+   }
