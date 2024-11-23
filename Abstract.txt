@@ -1,6 +1,6 @@
 ABSTRACT:
 
-Karmaşıklığı yönetmek için kullanılır.
+Karmaşıklığı yönetmek için kullanılır. soyutlama yapmak için kullanılır. polimorfizm yapısını sağlar.
 Abstarct class lardan nesne türetilmez.
 Abstract Class’larda kullanılan diğer önemli nokta ise Abstract Methodlardır. fakat bu class larda normal metotlar da olabilir.
 Abstract  methodlar sadece abstract class’lar içinde tanımlanır ve override edilmek zorundadır. 

@@ -1,0 +1,45 @@
+IP (internet protokol) adresi, bir cihazı internet veya yerel ağ üzerinde tanımlayan benzersiz bir adrestir.
+
+
+HTTP (Hypertext Transfer Protocol), bir istemci (örneğin bir web tarayıcısı) ile bir web sunucusu arasında bilgi 
+kodlama ve taşıma yöntemidir.
+Dünyada en yaygın kullanılan protokoldür. internetteki web sayfalarını görüntülemek için kullanılan protokoldür.
+Google.com gbi bir adres yazdığınızda HTTP’nin web adresinin başına otomatik olarak eklendiğini göreceksiniz. 
+ve bu web sayfasını görüntülemek için HTTP kullandığını gösterir.
+Metinler açık metin olarak aktarıldığı için bilgisayar korsanları, hacker gibi kişilere karşı savunmasızdır. 
+Sadece normal web sitelerine göz atıyorsanız, şifreler veya kredi kartı bilgileri gibi hassas veriler 
+kullanılmıyor ise bu büyük bir sorun olmayabilirdi. İşte bu güvenlik sorununu ortadan kaldırmak için uzmanlar HTTPS’yi geliştirdi. 
+
+
+HTTP + S (Secure/Güvenli) = HTTPS (Hyper Text Transform Protocol Secure) Güvenli  Köprü Metin Aktarım Protokolü anlamına gelir. 
+Güvenli HTTP, HTTP’den alınan verileri şifreler. 
+
+Sunucunun https'de yayın yapabilmesi için o sunucuda ssl kurulu olması gerekir.
+
+
+SSL açılımı “Secure Sockets Layer” yani “Güvenli Yuva Katmanı” demektir. 
+SSL sertifikasını web sitesinin kendini doğrulamak için kullanılan küçük bir dijital sertifika gibi düşünebilirsiniz.
+Temel olarak ziyaret ettiğiniz web sayfasının bilgisayarınıza ya da telefonunuza güvenli olduğunu bildirmek için kullanılır. 
+Web ortamında girdiğiniz hassas veriler web sitenin sunucusuna aktarılmadan önce herkese açık internet ortamında dolaşır ve 
+sonrasında ilgili sunucuya teslim edilir. Bu aktarım sırasında verileriniz internet ortamında şifresiz bir şekilde dolaşırsa 
+ağınızı dinleyen bilgisayar korsanları ve hackerlar kolaylıkla bilgilerinize erişebilir ve kötü amaçlar için kullanabilir. 
+Ancak SSL sertifikası olan bir sitede hassas verileriniz sunucuya ulaşmadan önce kriptografik şifreleme tekniği ile çok karmaşık 
+bir şekilde kodlanır ve sunucuya teslim edilir.
+
+SSL çalışması;
+Tarayıcı (istemci) SSL (HTTPS) protokolü ile güvence altına alınmış bir siteye (Web sunucusuna) bağlanır. Tarayıcı web sunucusunun kendisini tanımasını ister.
+Sunucu SSL sertifikasının içerdiği anahtarlardan (KEY) biri olan ortak anahtarı ile birlikte SSL sertifikasının bir kopyasını tarayıcıya gönderir.
+Tarayıcı sunucudan gelen anahtarı ve SSL sertifikası kontrol eder. Anahtarın doğruluğunu, sertifikanın süresinin dolup dolmadığını 
+ve o web siteye ait olup olmadığını kontrol eder. Tarayıcı sunucudan gelen anahtara güvenirse anahtarın simetrik bir kopyasını oluşturur ve şifreleyerek sunucuya geri gönderir.
+Sunucu diğer anahtarı kullanarak tarayıcıdan gelen şifrelenmiş oturum anahtarının şifresini çözer ve güvenli oturumu başlatmak için şifrelenmiş belgeyi geri gönderir.
+Tarayıcı ve web sunucusu güveni oturumu başlatmış olur ve tüm verileri güvenli oturum anahtarı ile şifreler.
+
+
+SSL’in zaman içerisinde yeni sürümleri çıkmasına rağmen güvenlik koşullarını tam olarak sağlamadığı ve hacklenebilir olduğu için 
+1999 Yılında piyasaya sürülen TLS (Transport Layer Security) yani Aktarım Katmanı Güvenliği Protokolü SSL’in yerini aldı. 
+Günümüzde halen SSL yerine TLS yaygın olarak kullanılmasına rağmen SSL ve TLS terimleri için yaygın olarak SSL terimi kullanılmaktadır.
+
+
+
+
+
