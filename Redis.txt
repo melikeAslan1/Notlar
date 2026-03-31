@@ -1,0 +1,11 @@
+Redis Veri yapısı deposudur. NoSql veritabanıdır.
+Verileri ram üzerinde saklar.
+.Net core'da genelde distrubuted cacheleme(dağıtılmış önbellekleme) de kullanılır.
+Redis veritabanı yükünü azaltır, performansı artırır.
+StackExchange.Redis kütüphanesi veya Microsoft.Extensions.Caching.StackExchangeRedis paketi ile .Net e entegre edilir. 
+
+
+projeye redis eklerken;
+docker ile beraber ekledik. redisi dockerdaki bir container gibi düşündük.
+
+IDatabase ile redis in db kısmına ulaşılır.
