@@ -1,5 +1,5 @@
 ABSTRACT:
-
+Abstraction bir OOP prensibidir. Abstract class ve interface, bu prensibi uygulamak için kullanılan yapılardır;
 Karmaşıklığı yönetmek için kullanılır. soyutlama yapmak için kullanılır. polimorfizm yapısını sağlar.
 Abstarct class lardan nesne türetilmez.
 Abstract Class’larda kullanılan diğer önemli nokta ise Abstract Methodlardır. fakat bu class larda normal metotlar da olabilir.
