@@ -1,0 +1,3 @@
+CQRS, veri okuma ve veri değiştirme işlemlerini ayrı yapılarda ele alma yaklaşımıdır. MediatR ise bu işlemleri ilgili işleyiciye yönlendirmek için kullanılabilen bir .NET kütüphanesidir.
+
+CQRS, okuma ve yazma işlemlerini ayıran bir tasarım yaklaşımıdır. MediatR ise uygulama içinde command ve query isteklerini ilgili handler’lara yönlendirmek için kullanabileceğimiz bir kütüphanedir.

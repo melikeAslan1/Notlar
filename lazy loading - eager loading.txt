@@ -1,0 +1,9 @@
+Lazy Loading vs Eager Loading;
+Entity frameworkün yazılan LINQ sorgularına bağlı olarak veriyi veri tabanından yüklemek için kullandığı loading yöntemleridir.
+Lazy Loading, sayfada yer alan bir ögenin ihtiyaç duyulmadığı takdirde çağrılmaması prensibi ile çalışır.
+
+Eager Loading ilişkili verileri ana sorguyla birlikte yüklerken, Lazy Loading ilişkili verileri ihtiyaç duyulduğunda yükler.
+
+N+1 sorgu problemi nedir?
+bir uygulamanın ana verileri almak için 1 adet sorgu çalıştırdıktan sonra, bu verilerin her biriyle ilişkili diğer alt verileri çekmek için N tane ek sorgu göndermesi sonucunda oluşan bir performans darboğazıdır.
+genelde lazy loading kullanıldığı için olur. Eager loading ile bunun önüne geçilir.

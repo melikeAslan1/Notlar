@@ -1,0 +1,7 @@
+polimorfizm (çok biçimlilik) -> Aynı ortak yapı üzerinden farklı nesnelerin kendilerine özgü davranış göstermesi; örneğin MakeSound() çağrısında kedinin miyavlaması, köpeğin havlaması.
+
+Encapsulation (Kapsülleme): Veriye doğrudan erişimi sınırlandırıp kontrollü erişim sağlamak.
+
+Abstraction (Soyutlama): Karmaşık detayları gizleyip gerekli işlevleri sunmak.
+
+Inheritance (Kalıtım): Bir sınıfın başka bir sınıfın özellik ve davranışlarını devralması.

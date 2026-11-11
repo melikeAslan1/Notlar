@@ -1,0 +1,1 @@
+Dependency Injection (Bağımlılık Enjeksiyonu), bir sınıfın ihtiyaç duyduğu nesneyi kendi içinde new ile oluşturmak yerine dışarıdan almasıdır. Genellikle constructor üzerinden verilir.

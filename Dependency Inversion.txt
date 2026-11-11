@@ -1,0 +1,3 @@
+Bağımlılıkların tersine çevrilmesi (dependency inversion ) -> Üst seviye iş mantığının, alt seviye detaylara doğrudan değil, interface gibi soyutlamalara bağımlı olmasıdır.
+
+Örneğin OrderService, doğrudan EmailService sınıfına bağlı olmak yerine INotificationService interface’ine bağlı olur. Böylece e-posta yerine SMS göndermeye geçtiğinde sipariş servisinin kodunu değiştirmezsin; interface’i uygulayan farklı bir servis kullanırsın.

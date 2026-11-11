@@ -1,0 +1,16 @@
+DDD = Domain-Driven Design, Türkçesi Alan Odaklı Tasarım.
+
+Yazılımı, çalıştığı iş alanının kavramlarına ve kurallarına göre tasarlama yaklaşımıdır. Buradaki domain, lojistik, bankacılık veya e-ticaret gibi uygulamanın çözüm ürettiği iş alanıdır.
+
+Örneğin lojistik uygulamasında Sevkiyat, Araç ve Sürücü temel kavramlardır. “Teslim edilmiş sevkiyat iptal edilemez” gibi bir kuralı, sevkiyat modelinin davranışında ifade edebilirsin:
+
+public void Cancel()
+{
+    if (Status == ShipmentStatus.Delivered)
+        throw new InvalidOperationException(
+            "Teslim edilmiş sevkiyat iptal edilemez.");
+
+    Status = ShipmentStatus.Cancelled;
+}
+
+DDD yalnızca sınıf oluşturmak veya katmanlı mimari kurmak değildir: İş alanını uzmanlarla birlikte anlamayı, ortak bir dil kullanmayı ve modeli bu kurallara göre şekillendirmeyi kapsar.

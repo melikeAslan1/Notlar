@@ -1,0 +1,19 @@
+uygulamamızın (http isteğinin) öncesinde ve sonrasında belirli kodlar çalıştırmak için uyguladığımız yapılardır.
+
+Hangi Durumlarda Kullanılır?
+
+Loglama: isteklerden önce veya sonra istek ve isteği oluşturan kullanıcı hakkında log kayıtları oluşturabilirsiniz.
+
+Exception Handling: Hataları yakalamak için yapılar kurabilirsiniz. İsteğe bağlı olarak loglama yada belirli hata mesajları gösterme veya yönlendirmeler yapabilirsiniz.
+
+CORS Ayarları: Tarayıcıdan gelen cross orgin yani farklı kaynaklardan gelen istekleri kısıtlayabilirsiniz.
+
+Yetki / Yetkilendirme Kontrolü: Authorizon veya Authentication yapıları kurarak kullanıcıyı ve yetkilerini kontrol edebilirsiniz.
+
+Performans Ölçümü: İsteğin öncesinde ve sonrasında kod çalıştırabildiğimizi söylemiştik, bu sayede uygulamamızın bir isteği ne kadar sürede işlediğini ve sonucu hazırladığını ölçebiliriz.
+
+Rate Limiting, IP veya Lokasyon Kısıtlama: Bir kullanıcının hangi sıklıkla istek atabileceğini limitleyebilir veya uygulamaya erişimini tamamen kısıtlayabilirsiniz.
+
+Kendin middleware classını yazıp içine metotlarını ekleyip sonra bu metodu program.cs'de tanımlarsın.
+app.UseMiddleware<RateLimitingMiddleware>();
+ gibi.

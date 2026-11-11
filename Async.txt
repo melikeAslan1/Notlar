@@ -26,3 +26,5 @@ birbirini beklemediğini aynı anda çalıştığını düşünelim bu asenkronu
 başlaması için. asenkron işlemlerin içinde asenkron olduğunu belirtmezseniz o işi bekleyemezsiniz. bu yü<den await 
 kullanılır. yani bu metot asenkron dur ve bu metodun işini bitirmesi için içeride bir işi bekleyeceğim deriz await 
 ile.
+
+.Result yada .Wait() metodu kullanılmamalı, bunlar asenkron mantığına terstir yavaşlatma yapar.
